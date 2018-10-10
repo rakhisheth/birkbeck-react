@@ -10,8 +10,18 @@
   left: 0;
   height: 100%;
   border-right: 2px solid #6a0432;
+  font-family: Ubuntu Condensed, sans-serif;
+}
+
+.sub-title {
+  font-size: 25px;
+  text-align: center;
 }
 
 .nav-links {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: Ubuntu Condensed, sans-serif; */
+}
+
+.home {
+  margin-left: 320px;
 }
