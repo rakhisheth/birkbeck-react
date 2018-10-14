@@ -31,24 +31,23 @@ class App extends Component {
           <Title
             className="sub-title"
             title="Web Development & User Experience"
-          />
-          <div className="nav-links">
-            <BrowserRouter>
-              <div>
-                <Navigation />
-                <Switch>
-                  <Route path="/" component={Home} />
-                  <Route path="/assignments" component={Assignment} />
-                  <Route path="/contacts" component={Contacts} />
-                  <Route path="/reading-list" component={ReadingList} />
-                  <Route path="/sessions" component={Sessions} />
-                  <Route path="/staff" component={Staff} />
-                  <Route path="/students" component={Students} />
-                </Switch>
-              </div>
-            </BrowserRouter>
-          </div>
+          />                         
+          <div className="nav-links" />
         </div>
+        <BrowserRouter>
+          <div>
+            <Navigation />
+            <Switch>
+              <Route path="/" component={Home} />
+              <Route path="/assignments" component={Assignment} />
+              <Route path="/contacts" component={Contacts} />
+              <Route path="/reading-list" component={ReadingList} />
+              <Route path="/sessions" component={Sessions} />
+              <Route path="/staff" component={Staff} />
+              <Route path="/students" component={Students} />
+            </Switch>
+          </div>
+        </BrowserRouter>
       </div>
     );
   }
