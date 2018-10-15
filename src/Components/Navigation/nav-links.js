@@ -1,18 +1,32 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navigation = () => {
+const NavLinks = () => {
   return (
-    <div>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/assignments">Assignments</NavLink>
-      <NavLink to="/contacts">Contacts</NavLink>
-      <NavLink to="/reading-list">Reading List</NavLink>
-      <NavLink to="/sessions">Sessions</NavLink>
-      <NavLink to="/staff">Staff</NavLink>
-      <NavLink to="/students">Students</NavLink>
-    </div>
+    <ul className="nav-link">
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/assignments">Assignments</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contacts">Contacts</NavLink>
+      </li>
+      <li>
+        <NavLink to="/reading-list">Reading List</NavLink>
+      </li>
+      <li>
+        <NavLink to="/sessions">Sessions</NavLink>
+      </li>
+      <li>
+        <NavLink to="/staff">Staff</NavLink>
+      </li>
+      <li>
+        <NavLink to="/students">Students</NavLink>
+      </li>
+    </ul>
   );
 };
 
-export default Navigation;
+export default NavLinks;

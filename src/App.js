@@ -10,35 +10,20 @@ import Sessions from "./Components/Pages/sessions";
 import Staff from "./Components/Pages/staff";
 import Students from "./Components/Pages/students";
 
+import Footer from "./Components/Footer/footer";
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navigation from "./Components/Navigation/nav-links";
+import Navigation from "./Components/Navigation/navigation";
 
 class App extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className="App">
-        <div className="navbar">
-          <header className="App-header">
-            <img
-              src="http://wdux1819.bbkweb.org/img/bbk-logo-burgundy.png"
-              alt="birkbeck-logo"
-            />
-          </header>
-          <Title
-            className="sub-title"
-            title="Web Development & User Experience"
-          />                         
-          <div className="nav-links" />
-        </div>
         <BrowserRouter>
           <div>
             <Navigation />
             <Switch>
-              <Route path="/" component={Home} />
+              <Route path="/" component={Home} exact />
               <Route path="/assignments" component={Assignment} />
               <Route path="/contacts" component={Contacts} />
               <Route path="/reading-list" component={ReadingList} />
@@ -48,6 +33,7 @@ class App extends Component {
             </Switch>
           </div>
         </BrowserRouter>
+        <Footer />
       </div>
     );
   }

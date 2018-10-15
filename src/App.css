@@ -1,27 +1,45 @@
-.nav-links {
+.container {
+  /* position: relative; */
+}
+
+.nav-link {
   list-style: none;
+  text-decoration: none;
+  color: #4a4a4a;
+  line-height: 1.4em;
+  font-weight: bold;
 }
 
 .navbar {
   width: 320px;
   background-color: #f0e6eb;
-  position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
   border-right: 2px solid #6a0432;
   font-family: Ubuntu Condensed, sans-serif;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
 }
 
+.pages {
+  margin-left: 320px;
+  /* position: relative; */
+  display: inline-block;
+}
 .sub-title {
   font-size: 25px;
   text-align: center;
+  color: #4a4a4a;
 }
 
-.nav-links {
-  /* font-family: Ubuntu Condensed, sans-serif; */
-}
-
-.home {
-  margin-left: 320px;
+.footer {
+  width: 100%;
+  background-color: #6a0432;
+  font-family: Ubuntu Condensed, sans-serif;
+  padding: 10px 60px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  color: white;
 }

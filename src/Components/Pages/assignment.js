@@ -2,7 +2,7 @@ import React from "react";
 
 const Assignment = () => {
   return (
-    <div>
+    <div className="pages">
       <h1>Assignment</h1>
       <p>
         The Web Development and User Experience submission date is Tuesday 8th

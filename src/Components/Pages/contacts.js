@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="pages">
       <h1>Gitter Channel</h1>
       <p>
         Starting the current here, we created a gitter channel that all students
