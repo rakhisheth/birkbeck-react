@@ -1,6 +1,6 @@
 import React from "react";
 import NavLinks from "./nav-links";
-import Title from "../Title/title";
+import SubTitle from "../Title/sub-title";
 
 const Navigation = () => {
   return (
@@ -9,8 +9,7 @@ const Navigation = () => {
         src="http://wdux1819.bbkweb.org/img/bbk-logo-burgundy.png"
         alt="birkbeck-logo"
       />
-      <Title className="sub-title" title="Web Development & User Experience" />
-      {/* <p className="sub-title">Web Development & User Experience </p> */}
+      <SubTitle subtitle="Web Development and User Experience" />
       <NavLinks />
     </nav>
   );

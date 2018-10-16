@@ -1,12 +1,26 @@
+html,
+body,
 .container {
-  /* position: relative; */
+  height: 100%;
+  width: 100%;
 }
-
 .nav-link {
   list-style: none;
+  font-size: 1.3em;
+  line-height: 1.7em;
+  font-weight: bold;
+}
+a {
+  list-style-type: none;
   text-decoration: none;
   color: #4a4a4a;
-  line-height: 1.4em;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -14,23 +28,26 @@
   width: 320px;
   background-color: #f0e6eb;
   top: 0;
+  bottom: 0;
   left: 0;
   border-right: 2px solid #6a0432;
   font-family: Ubuntu Condensed, sans-serif;
   height: 100%;
   position: absolute;
-  display: inline-block;
 }
 
 .pages {
   margin-left: 320px;
   /* position: relative; */
   display: inline-block;
+  padding: 10px 20px 50px;
 }
 .sub-title {
-  font-size: 25px;
+  font-size: 1.5em;
   text-align: center;
   color: #4a4a4a;
+  padding: 20px 40px;
+  border-bottom: 1px solid #6a0432;
 }
 
 .footer {
@@ -40,6 +57,40 @@
   padding: 10px 60px;
   bottom: 0;
   right: 0;
-  position: absolute;
+  position: relative;
   color: white;
+}
+.title {
+  color: #4a4a4a;
+  font-size: 2em;
+  border-bottom: 1px solid #4a4a4a;
+
+  margin: 0.67em 0;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+p,
+li {
+  color: #4a4a4a;
+  line-height: 1.4;
+}
+/* STUDENT TABLE */
+table {
+  border-collapse: collapse;
+  border: 1px solid #6a0432;
+}
+th,
+td {
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #6a0432;
+}
+thead tr {
+  background-color: #6a0432;
+  color: #fff;
+}
+tbody tr:nth-child(even) {
+  background-color: #f0e6eb;
 }

@@ -1,26 +1,50 @@
 import React from "react";
+import Title from "../Title/title";
 
 const Contact = () => {
   return (
     <div className="pages">
-      <h1>Gitter Channel</h1>
+      <Title title="Gitter Channel" />
+
       <p>
-        Starting the current here, we created a gitter channel that all students
-        should join. To be able to join and post messages, you must create a
-        GitHub account, which is still free. This form of communication is to be
-        preferred for the current year: feel free to post any question of public
-        interest in the main channel. Optionally, you can also contact your
-        tutors using a direct message (DM), although we discourage such practice
-        unless strictly necessary, as it might be the case for
-        private/confidential information (like communicating the password for
-        your webspace). Note that while this course would not require students
-        to master a git related work-flow, it is strongly encouraged that
-        students wishing to get a better feel of the modern techniques of
-        development consider reading some documentation about it. In this
-        regard, we would like to recommend both the introductory class on
-        CodeCademy and the most advanced tutorial by Atlassian.
+        Starting the current here, we created{" "}
+        <a href="https://gitter.im/GiacomoSorbi/wdux1819" target="_blank">
+          a gitter channel
+        </a>{" "}
+        that all students should join. To be able to join and post messages, you
+        must create a{" "}
+        <a href="https://github.com/" target="_blank">
+          GitHub account
+        </a>
+        , which is still free.
       </p>
-      <h1>Mailing List</h1>
+      <p>
+        This form of communication is to be preferred for the current year: feel
+        free to post any question of public interest in the main channel.
+        Optionally, you can also contact your tutors using a direct message
+        (DM), although we discourage such practice unless strictly necessary, as
+        it might be the case for private/confidential information (like
+        communicating the password for your webspace).{" "}
+      </p>
+      <p>
+        <i>
+          Note that while this course would not require students to master a git
+          related work-flow, it is strongly encouraged that students wishing to
+          get a better feel of the modern techniques of development consider
+          reading some documentation about it. In this regard, we would like to
+          recommend both the{" "}
+          <a href="https://www.codecademy.com/learn/learn-git" target="_blank">
+            introductory class on CodeCademy
+          </a>{" "}
+          and the most advanced{" "}
+          <a href="https://www.atlassian.com/git/tutorials" target="_blank">
+            tutorial by Atlassian
+          </a>
+          .
+        </i>
+      </p>
+      <Title title="Mailing List" />
+
       <p>
         We also have a mailing list that all students must join. We will use
         this list to contact you, but you should also use it as a discussion
@@ -34,7 +58,9 @@ const Contact = () => {
         you should email:
       </p>
       <ul>
-        <li>wdux1718@bbkweb.org</li>
+        <li>
+          <a href="mailto:wdux1819@bbkweb.org">wdux1718@bbkweb.org</a>
+        </li>
       </ul>
       <p>
         We would prefer all questions to be sent to the above mailing list, but
@@ -42,7 +68,9 @@ const Contact = () => {
         to:
       </p>
       <ul>
-        <li>wduxtutors@bbkweb.org</li>
+        <li>
+          <a href="mailto:wduxtutors@bbkweb.org">wduxtutors@bbkweb.org</a>
+        </li>
       </ul>
       <p>
         Only the tutors and administrative staff receive emails sent to

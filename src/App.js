@@ -18,7 +18,7 @@ import Navigation from "./Components/Navigation/navigation";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <BrowserRouter>
           <div>
             <Navigation />
