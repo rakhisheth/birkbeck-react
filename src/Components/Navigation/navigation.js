@@ -9,7 +9,7 @@ const Navigation = () => {
         src="http://wdux1819.bbkweb.org/img/bbk-logo-burgundy.png"
         alt="birkbeck-logo"
       />
-      <SubTitle subtitle="Web Development and User Experience" />
+      <p className="nav-subhead">Web Development and User Experience</p>
       <NavLinks />
     </nav>
   );
