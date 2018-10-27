@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../Title/title";
+import data from "../sessions-data";
 
 const Sessions = () => {
   return (
@@ -17,83 +18,83 @@ const Sessions = () => {
         <tbody>
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux01/">WDUX01</a>
+              <a href="{data[0].session}">WDUX01</a>
             </td>
-            <td>2018-10-02</td>
-            <td>18.00-21.00</td>
-            <td>Ines Rebelo/Rebekah Cupitt/Tim Priestman</td>
+            <td>{data[0].date}</td>
+            <td>{data[0].time}</td>
+            <td>{data[0].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux02/">WDUX02</a>
+              <a href="{data[1].session}">WDUX02</a>
             </td>
-            <td>2018-10-06</td>
-            <td>09:30-16:30</td>
-            <td>Giacomo Sorbi/Maria Dada/Bhavik Sheth</td>
+            <td>{data[1].date}</td>
+            <td>{data[1].time}</td>
+            <td>{data[1].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux03/">WDUX03</a>
+              <a href="{data[2].session}">WDUX03</a>
             </td>
-            <td>2018-10-13</td>
-            <td>09:30-16:30</td>
-            <td>Ines Rebelo/Rebekah Cupitt</td>
+            <td>{data[2].date}</td>
+            <td>{data[2].time}</td>
+            <td>{data[2].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux04/">WDUX04</a>
+              <a href="{data[3].session}">WDUX04</a>
             </td>
-            <td>2018-10-27</td>
-            <td>09:30-16:30</td>
-            <td>Giacomo Sorbi/Maria Dada/Bhavik Sheth</td>
+            <td>{data[3].date}</td>
+            <td>{data[3].time}</td>
+            <td>{data[3].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux05/">WDUX05</a>
+              <a href="{data[4].session}">WDUX05</a>
             </td>
-            <td>2018-11-10</td>
-            <td>09:30-16:30</td>
-            <td>Ines Rebelo/Rebekah Cupitt</td>
+            <td>{data[4].date}</td>
+            <td>{data[4].time}</td>
+            <td>{data[4].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux06/">WDUX06</a>
+              <a href="{data[5].session}">WDUX06</a>
             </td>
-            <td>2018-11-24</td>
-            <td>09:30-16:30</td>
-            <td>Giacomo Sorbi/Maria Dada/Bhavik Sheth</td>
+            <td>{data[5].date}</td>
+            <td>{data[5].time}</td>
+            <td>{data[5].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux07/">WDUX07</a>
+              <a href="{data[6].session}">WDUX07</a>
             </td>
-            <td>2018-12-01</td>
-            <td>09:30-16:30</td>
-            <td>Ines Rebelo/Rebekah Cupitt</td>
+            <td>{data[6].date}</td>
+            <td>{data[6].time}</td>
+            <td>{data[6].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux08/">WDUX08</a>
+              <a href="{data[7].session}">WDUX08</a>
             </td>
-            <td>2018-12-08</td>
-            <td>09:30-16:30</td>
-            <td>Giacomo Sorbi/Maria Dada/Bhavik Sheth</td>
+            <td>{data[7].date}</td>
+            <td>{data[7].time}</td>
+            <td>{data[7].tutors}</td>
           </tr>
 
           <tr>
             <td scope="row">
-              <a href="/sessions/wdux09/">WDUX09</a>
+              <a href="{data[8].session}">WDUX09</a>
             </td>
-            <td>2018-12-11</td>
-            <td>18.00-21.00</td>
-            <td>Ines Rebelo/Rebekah Cupitt/Tim Priestman</td>
+            <td>{data[8].date}</td>
+            <td>{data[8].time}</td>
+            <td>{data[8].tutors}</td>
           </tr>
         </tbody>
       </table>

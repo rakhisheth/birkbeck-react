@@ -1,6 +1,5 @@
 import React from "react";
 import NavLinks from "./nav-links";
-import SubTitle from "../Title/sub-title";
 
 const Navigation = () => {
   return (

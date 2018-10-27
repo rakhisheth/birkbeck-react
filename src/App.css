@@ -1,17 +1,18 @@
-/* .container {
-  display: flex;
-} */
+.container,
+body,
+html {
+  height: 100%;
+}
 
 /* NAVBAR */
 
 .navbar {
   width: 320px;
   background-color: #f0e6eb;
-  top: 0;
-
+  /* top: 0; */
   border-right: 2px solid #6a0432;
   font-family: Ubuntu Condensed, sans-serif;
-  /* height: 100%; */
+  height: 100%;
   position: absolute;
 }
 
@@ -60,6 +61,7 @@
 .pages {
   margin-left: 320px;
   padding: 10px 20px 50px;
+  /* position: absolute; */
 }
 
 p,
@@ -97,7 +99,7 @@ tbody tr:nth-child(even) {
 .footer {
   background-color: #6a0432;
   font-family: Ubuntu Condensed, sans-serif;
-  padding: 10px 80px;
+  padding: 20px 80px;
   bottom: 0;
   right: 0;
   color: white;
